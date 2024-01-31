@@ -1,0 +1,43 @@
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 867px;
+  padding: 10px;
+  background-color: #3498db;
+  line-height: 34px;
+}
+.home p {
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.home img {
+  width: 30px;
+  height: 30px;
+}
+p.cart-count {
+  color: black;
+  margin-left: 34px;
+  margin-top: -50px;
+  width: 20px;
+  height: 20px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 1px solid;
+}
+@media only screen and (max-width: 767px) {
+  .flex1 {
+    flex-direction: row;
+    align-items: center;
+    gap: 165px;
+}
+
+  .home {
+    margin-bottom: 10px;
+  }
+}
